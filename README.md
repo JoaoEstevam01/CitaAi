@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight: bold;">Pet Paradise 🐾</h1>
+<h1 align="center" style="font-weight: bold;">CitaAí 🐈</h1>
 
 <p align="center">
  <a href="#technologies">Tecnologias/Technologies</a> • 
