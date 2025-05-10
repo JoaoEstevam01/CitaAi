@@ -1,6 +1,8 @@
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #a1c4fd, #c2e9fb); /* gradiente inicial */
+  background: linear-gradient(-45deg, #a1c4fd, #c2e9fb, #fbc2eb, #a6c1ee);
+  background-size: 400% 400%;
+  animation: gradientWave 15s ease infinite;
   color: #333;
   display: flex;
   justify-content: center;
@@ -59,4 +61,23 @@ button:hover {
 
 .hidden {
   display: none;
+}
+
+@keyframes gradientWave {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+#cat-container {
+  margin-bottom: 20px;  /* Espaço entre a imagem e a citação */
+}
+
+#cat-img {
+  width: 100%;
+  max-width: 250px;
+  max-height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  object-fit: cover;
 }
