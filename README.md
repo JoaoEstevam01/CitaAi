@@ -44,7 +44,7 @@ git clone https://github.com/JoaoEstevam01/CitaAi
   <tr>
     <td align="center">
       <a href="https://github.com/JoaoEstevam01">
-        <img src="/img/João.jpeg" width="100px;" alt="João Paulo Estevam Valdivino"/><br>
+        <img src="/img/João.png" width="100px;" alt="João Paulo Estevam Valdivino"/><br>
         <sub>
           <b>João Estevam</b>
         </sub>
